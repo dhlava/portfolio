@@ -1,0 +1,79 @@
+@import '_variables.scss';
+
+.portfolio_items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin:0 0 20px -20px;
+}
+
+.portfolio_item {
+    background-color: #000;
+    color:#666;
+    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    flex: 1 0 calc(33.333% - 20px);
+    margin:20px 0 0 20px;
+    font-size:1.2rem;
+}
+
+.portfolio_item.full {
+    flex-basis:100%;
+}
+
+.portfolio_item img {
+    width:100%;
+}
+
+.portfolio_item .item_text {
+    background: #fff;
+    background-image: linear-gradient(#FFF 50%, #ddd 100%);
+    padding: 15px 20px 15px;
+    flex-grow:1;
+}
+
+.portfolio_item h3{
+    color: $color-primary;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height:1;
+    margin: 0px 0px 4px 0px
+}
+
+.portfolio_item h4 {
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    border-bottom: 1px solid #ddd;
+    color: #999;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.portfolio_item .role_list{
+    padding:5px;
+}
+.portfolio_item .role_list li {
+    background: url(/images/check.png) no-repeat 0px 5px;
+    padding-left: 18px;
+    margin-bottom: 4px;
+    list-style-type:none;
+}
+
+.portfolio_item .tech_list {
+    overflow: auto;
+    padding: 10px 0;
+    margin:0;
+}
+
+.portfolio_item .tech_list li {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    color: #666;
+    display: inline-block;
+    margin: 0 2px 5px 0;
+    padding: 4px 8px;
+    font-size: 1.1rem;
+}

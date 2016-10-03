@@ -1,0 +1,26 @@
+#simplemodal-overlay {
+    background-color: #111;
+    cursor: wait
+}
+
+a.modalCloseImg {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #000;
+    border-color: #fff;
+    display: inline-block;
+    z-index: 3200;
+    position: absolute;
+    top: -15px;
+    right: -16px;
+    cursor: pointer
+}
+
+.modal {
+    display: none
+}
+
+.modal img {
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.9)
+}

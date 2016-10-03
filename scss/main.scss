@@ -1,290 +1,152 @@
 @import '_normalize.scss';
+@import '_navigation.scss';
 @import '_portfolio-item.scss';
+@import '_modal.scss';
 @import '_resume.scss';
 
 
+*{
+    box-sizing:border-box;
+}
+
+html{
+    font:10px "open-sans", Helvetica, Arial, sans-serif;
+}
+
 body {
-    background: url("images/background_tile.png") repeat scroll 0 0 #252525;
-    font-family: "open-sans", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    color: #666;
-    font-weight: 300
-}
-
-p {
-    margin: 0px 0px 10px 0px;
-    font-weight: 300;
-    line-height: 16px
-}
-
-strong {
-    font-weight: 600
-}
-
-h1 {
-    font-size: 1.6rem;
-    color: #1F80B8
-}
-
-h2 {
-    color: #1F80B8;
-    font-size: 20px
-}
-
-h3 {
-    color: #1F80B8;
-    font-weight: 400;
-    font-size: 20px;
-    margin: 0px 0px 4px 0px
+    background: url("/images/background_tile.png") repeat scroll 0 0 #252525;
+    color: #999;
 }
 
 a,a:visited {
-    color: #1F80B8;
+    color: $color-primary;
     text-decoration: none
 }
 
 a:hover {
-    color: #269de2;
+    color: $color-primary-hover;
     text-decoration: none
 }
 
 .button,
 .button:visited {
-    background-color: #1F80B8;
+    background-color: $color-primary;
     display: block;
     padding: 10px 20px;
     text-align: center;
     color: #fff;
-    font-weight: normal
+    font-weight: 400;
 }
 
 .button:hover {
-    background-color: #269DE2;
+    background-color: $color-primary-hover;
     color: #fff
 }
 
-.button.disabled,
-.button.disable:hover {
-    background: #999;
-    cursor: pointer
+.button.disabled, .button.disable:hover {
+    background: #bbb;
 }
 
-#simplemodal-overlay {
-    background-color: #111;
-    cursor: wait
-}
-
-a.modalCloseImg {
-    width: 25px;
-    height: 25px;
-    border-radius: 25px;
-    background-color: #000;
-    border-color: #fff;
-    display: inline-block;
-    z-index: 3200;
-    position: absolute;
-    top: -15px;
-    right: -16px;
-    cursor: pointer
-}
-
-#content {
-    overflow: auto;
+.content {
     padding: 0 20px;
-    width: 940px;
-    margin: 0 auto
+    max-width:120rem;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .page_section {
     overflow: hidden;
     clear: both;
-    border-top: 1px solid #434343
+    border-top: 1px solid $color-border-primary;
 }
 
-#header {
-    padding: 15px 10px 25px;
+header {
+    padding: 15px 0 25px;
     border-top: none
 }
 
-#logo {
+.logo {
     float: left
 }
 
-#logo h1 {
-    font: 60px/68px 'bebas-neue', sans-serif;
-    letter-spacing: 0;
+.logo h1 {
+    font: 8rem 'bebas-neue', sans-serif;
     color: #ddd;
-    position: relative;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7)
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    margin:0;
 }
 
-#logo h1 span {
-    color: #1F80B8;
-    position: relative;
-    left: -5px
+.logo h1 span {
+    color: $color-primary;
 }
 
-#logo h2 {
+.logo h2 {
     color: #999;
-    font-size: 16px;
-    left: 105px;
+    font-size: 1.6rem;
     letter-spacing: 3px;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7)
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+    margin:0;
+    font-weight:300;
 }
 
-#navigation {
-    overflow: auto;
-    text-transform: uppercase;
-    float: right;
-    padding: 0px;
-    margin: 35px 0 0 0;
-    display: inline
+.tag_line {
+    padding: 20px 0;
+    text-align: center;
 }
 
-#navigation li {
-    float: left
-}
-
-#navigation li a:link,
-#navigation li a:visited {
-    padding: 0px 12px;
-    color: #f0f0f0;
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 24px
-}
-
-#navigation li a:hover {
-    color: #269de2
-}
-
-#tag_line {
-    padding: 20px 10px;
-    text-align: center
-}
-
-#tag_line h2 {
+.tag_line h3 {
     color: #666;
-    font-size: 26px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4)
+    font-size: 2.6rem;
+    font-weight:300;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    margin:0;
 }
 
-#tag_line h2 strong {
+.tag_line h3 strong {
     color: #aaa;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: normal;
 }
 
-#tag_line h2 span {
-    color: #999
+.sub_footer {
+    padding: 20px 10px;
+    font-size:1.2rem;
 }
 
-.portfolio_item {
-    background-color: #000;
-    box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.2);
+.sub_footer h3{
+    font-size:1.8rem;
+    font-weight:300;
+}
+
+.contact {
     float: left;
-    margin: 10px;
-    position: relative;
-    width: 450px
+    width: 25%;
 }
 
-.portfolio_item.full {
-    width: 920px
+.contact ul{
+    padding:0;
 }
 
-.portfolio_item img {
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
-    vertical-align: bottom
+.contact li {
+    padding: 5px 0;
+    list-style-type:none;
 }
 
-.portfolio_item .button {
-    position: absolute;
-    bottom: 0;
-    right: 0
-}
-
-.portfolio_item .item_text {
-    background: #fff;
-    background-image: linear-gradient(#FFF 50%, #ddd 100%);
-    padding: 15px 20px 40px
-}
-
-.portfolio_item h4 {
-    margin: 0 0 15px 0;
-    padding: 0 0 15px 0;
-    border-bottom: 1px solid #ddd;
-    color: #888;
-    font-size: 12px;
-    font-weight: 300;
-    text-transform: uppercase
-}
-
-.portfolio_item .role_list li {
-    background: url(../images/check.png) no-repeat 0px 5px;
-    padding-left: 18px;
-    margin-bottom: 4px
-}
-
-.portfolio_item .tech_list {
-    overflow: auto;
-    padding: 10px 0
-}
-
-.portfolio_item .tech_list li {
-    background: none repeat scroll 0 0 #CCC;
-    border: 1px solid #BBB;
-    border-radius: 5px 5px 5px 5px;
-    color: #FFF;
-    display: block;
+.about {
     float: left;
-    font-size: 10px;
-    margin: 0 5px 5px 0;
-    padding: 4px 8px
-}
-
-.modal {
-    display: none
-}
-
-.modal img {
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.9)
-}
-
-#sub_footer {
-    padding: 20px 10px
-}
-
-#contact {
-    float: left;
-    width: 350px
-}
-
-#contact ul {
-    float: left;
-    width: 300px
-}
-
-#contact li {
-    padding: 5px 0
-}
-
-#about {
-    float: left;
-    width: 529px;
-    border-left: 1px solid #434343;
+    width: calc(75% - 41px);
+    border-left: 1px solid $color-border-primary;
     margin: 0 0 0 20px;
     padding: 0 0 0 20px;
 }
 
-#about img {
+.about img {
     float: right;
     padding: 0 0 20px 20px
 }
 
-#footer {
-    border-top: 1px solid #434343;
-    padding: 10px;
-    font-size: 10px
+footer {
+    border-top: 1px solid $color-border-primary;
+    padding: 20px;
 }
