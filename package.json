@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "site.js",
+  "scripts": {
+    "prestart": "npm prune && npm install",
+    "build": "gulp",
+    "start": "npm run build && node server.js && gulp watch",
+    "server": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhlava/portfolio.git"
+  },
+  "author": "Dustin Hlava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhlava/portfolio/issues"
+  },
+  "homepage": "https://github.com/dhlava/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "normalize.css": "^4.2.0"
+  }
+}
