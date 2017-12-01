@@ -1,0 +1,166 @@
+{
+  "basics": {
+    "name": "Dustin Hlava",
+    "label": "Front-End Web Developer",
+    "image": "",
+    "email": "dhlava@gmail.com",
+    "phone": "(317) 850-4291",
+    "url": "http://www.dustinhlava.com",
+    "summary": "My name is Dustin Hlava and I am a front-end web developer in Houston, TX. I have a passion for writing clean, fast, and efficient HTML, CSS, and JavaScript using modern web programming techniques and tools. I have designed and developed, from idea through delivery, numerous large eCommerce web sites and applications. While I specialize and focus mainly on front-end coding, I have developed a broad web skill set which I am always eager to grow. If you happen to catch me away from my computer, you'll probably find me skiing down a mountain, scuba diving in an ocean somewhere, working on my seemingly infinite list of home improvements, or just enjoying dinner and a beer(s) with friends by the pool.",
+    "location": {
+      "address": "6304 Empresa Dr",
+      "postalCode": "78738",
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "TX"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Dustin Hlava",
+        "url": "http://www.linkedin.com/in/dustinhlava"
+      },
+      {
+        "network": "Twitter",
+        "username": "joeegg00",
+        "url": "https://twitter.com/joeegg00"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "United Airlines",
+      "position": "Senior Web UI Developer/Manger of Web App. UI Development",
+      "description":"",
+      "location": "Houston, TX",
+      "url": "https://www.united.com",
+      "startDate": "2013-01-01",
+      "endDate": "2017-10-01",
+      "summary": "",
+      "highlights": [
+        "Architected, developed, and launched the next-generation United.com",
+        "Established front-end architecture and coding standards across United’s ecommerce applications",
+        "Engineered and developed (full-stack) numerous large, high-impact products and feature enhancements to United’s ecommerce applications",
+        "Worked side-by-side with team members in various company roles (leadership, business development, design, marketing, testing) to design and refine the application user experience",
+        "Responsible for the remediation of United.com to meet the Web Content Accessibility Guidelines (WCAG) 2.0 AA guidelines and was a team recipient of the 2017 Access Award by the American Foundation for the Blind",
+        "Successfully fostered the transformation of United eCommerce software development from traditional waterfall to agile using extreme programming methodologies",
+        "Implemented and maintained automated continuous delivery servers (GoCD and TeamCity) to enable continuous integration and continuous delivery of new United.com products and features",
+        "Practiced test-driven development (TDD) and integrated multiple levels of the testing pyramid (unit tests, integration, functional/UI) into the United.com continuous delivery pipelines"
+      ]
+    },
+    {
+      "name": "Hartigen Solutions, LLC",
+      "position": "Web Developer",
+      "description":"",
+      "location": "Houston, TX",
+      "url": "https://www.hartigen.com",
+      "startDate": "2012-03-01",
+      "endDate": "2013-01-01",
+      "summary": "",
+      "highlights": [
+        "Functioned as a lead front-end developer for a startup North American power market web application",
+        "Designed and developed client-side application code using multiple JavaScript frameworks and tools such as ExtJS, jQuery, and Backbone.js",
+        "Implemented real-time web application behaviors using various HTML5 APIs such as WebSockets",
+        "Developed using the latest and greatest CSS and JavaScript features while falling back gracefully in less capable browsers",
+        "Worked directly and effectively with team members in all other company roles (leadership, sales, design, testing) to design and refine the application user experience"
+      ]
+    },
+    {
+      "name": "Arrow Electronics Inc.",
+      "position": "Front-End Web Developer ",
+      "description":"",
+      "location": "Englewood, CO",
+      "url": "https://components.arrow.com",
+      "startDate": "2009-03-01",
+      "endDate": "2012-01-01",
+      "summary": "",
+      "highlights": [
+        "Collaborated with an international team of developers to successfully design, develop, and launch a suite of global ecommerce web applications and tools",
+        "Designed and developed application UI based on UX standards, industry standards, and analysis of customer feedback",
+        "Integrated HTML/CSS templates with restful web services",
+        "Lead multiple speed optimization initiatives increasing page load time by as much as six times faster",
+        "Implemented ecommerce functionality across multiple web environments and with multiple web teams around the globe"
+      ]
+    },
+    {
+      "name": "Purdue University Technical Assistance Program",
+      "position": "Web Developer",
+      "description":"",
+      "location": "West Lafayette, IN",
+      "url": "https://tap.purdue.edu",
+      "startDate": "2007-02-01",
+      "endDate": "2009-06-01",
+      "summary": "",
+      "highlights": [
+        "Collaborated with an international team of developers to successfully design, develop, and launch a suite of global ecommerce web applications and tools",
+        "Designed and developed application UI based on UX standards, industry standards, and analysis of customer feedback",
+        "Integrated HTML/CSS templates with restful web services",
+        "Lead multiple speed optimization initiatives increasing page load time by as much as six times faster",
+        "Implemented ecommerce functionality across multiple web environments and with multiple web teams around the globe"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Miss Direction",
+      "description": "A mapping engine that misguides you",
+      "highlights": [ 
+        "Won award at AIHacks 2016",
+        "Built by all women team of newbie programmers",
+        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      ],
+      "keywords": [
+        "GoogleMaps", "Chrome Extension", "Javascript"
+      ],
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24", 
+      "url": "missdirection.example.com",
+      "roles": [ 
+        "Team lead", "Designer"
+      ],
+      "entity": "Smoogle",
+      "type": "application"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University - West Lafayette, IN",
+      "area": "Computer Graphics Technology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2003-08-01",
+      "endDate": "2008-05-01",
+      "gpa": "Graduation GPA – 3.40/4.0, Honors in multiple semesters, First Semester Dean’s List"
+    },
+    {
+      "institution": "Purdue University - West Lafayette, IN",
+      "area": "Computer and Information Technology",
+      "studyType": "Minor",
+      "startDate": "2003-08-01",
+      "endDate": "2005-05-01",
+      "gpa": "Graduation GPA – 3.40/4.0, Honors in multiple semesters, First Semester Dean’s List"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
