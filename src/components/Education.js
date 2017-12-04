@@ -6,7 +6,7 @@ class Education extends Component {
         return (
             <section className="page_section education_container">
                 <div className="content education_content">
-                    <div className="section_title"><h2>Education</h2></div>
+                    <h2 className="section_title">Education</h2>
                     <div className="section_content">
                         {this.props.education.map((item, index) =>
                             <EducationItem key={index} item={item} />

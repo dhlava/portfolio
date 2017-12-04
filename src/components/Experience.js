@@ -6,7 +6,7 @@ class Experience extends Component {
         return (
             <section className="page_section experience_section">
                 <div className="content experience_content">
-                    <div className="section_title"><h2>What I've Done</h2></div>
+                    <h2 className="section_title">What I've Done</h2>
                     <div className="section_content">
                         {this.props.work.map((item, index) =>
                             <ExperienceItem key={index} item={item} />

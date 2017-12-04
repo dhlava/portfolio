@@ -5,7 +5,7 @@ class Skills extends Component {
         return (
             <section className="page_section skills_container">
                 <div className="content skills_content">
-                    <div className="section_title"><h2>What I Know</h2></div>
+                    <h2 className="section_title">What I Know</h2>
                     <div className="section_content">Skills go here</div>
                 </div>
             </section>      

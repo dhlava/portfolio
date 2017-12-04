@@ -6,8 +6,6 @@ html {
   font: 10px "open-sans", Helvetica, Arial, sans-serif;
 }
 
-body {}
-
 a,
 a:visited {
   color: #1F80B8;
@@ -23,6 +21,8 @@ a:hover {
 .page_section {
   overflow: hidden;
   clear: both;
+  padding:30px 20px;
+  border-bottom:1px solid #ccc;
 }
 
 .content{
@@ -31,27 +31,34 @@ a:hover {
 }
 
 .section_title{
-  width:20%;
-  float:left;
+  margin:0;
 }
 
-.section_content{
-  float:left;
-  width:80%;
+.resume_item{
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
 }
 
-@media only screen and (max-width: 720px) {
-  .contact,
-  .about,
-  .sub_footer {
-    float: none;
-    width: 100%;
-    padding: 0;
+.resume_item:last-child{
+  border-bottom:0;
+}
+
+.resume_item h3{
+  margin:0 0 20px 0;
+  font-size:2rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .section_content,
+  .section_title {
+    float: left;
   }
-  .about {
-    margin: 0;
-    padding: 0;
-    border-left: none;
-    border-top: 1px solid #434343;
+  .section_title{
+    width:20%;
+  }
+  .section_content{
+    width:80%;
   }
 }
+
