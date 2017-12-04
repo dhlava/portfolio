@@ -6,7 +6,7 @@
     "email": "dhlava@gmail.com",
     "phone": "(317) 850-4291",
     "url": "http://www.dustinhlava.com",
-    "summary": "My name is Dustin Hlava and I am a front-end web developer in Houston, TX. I have a passion for writing clean, fast, and efficient HTML, CSS, and JavaScript using modern web programming techniques and tools. I have designed and developed, from idea through delivery, numerous large eCommerce web sites and applications. While I specialize and focus mainly on front-end coding, I have developed a broad web skill set which I am always eager to grow. If you happen to catch me away from my computer, you'll probably find me skiing down a mountain, scuba diving in an ocean somewhere, working on my seemingly infinite list of home improvements, or just enjoying dinner and a beer(s) with friends by the pool.",
+    "summary": "My name is Dustin Hlava and I am a front-end web developer in Austin, TX. I have a passion for writing clean, fast, and efficient HTML, CSS, and JavaScript using modern web programming techniques and tools. I have designed, developed, and deployed numerous large web sites and applications. While my passions lie in front-end development, I have developed a broad web technology skill set which I am always eager to grow.",
     "location": {
       "address": "6304 Empresa Dr",
       "postalCode": "78738",
@@ -15,6 +15,11 @@
       "region": "TX"
     },
     "profiles": [
+      {
+        "network":"Email",
+        "username": "dhlava@gmail.com",
+        "url": "dhlava@gmail.com"
+      },
       {
         "network": "LinkedIn",
         "username": "Dustin Hlava",
