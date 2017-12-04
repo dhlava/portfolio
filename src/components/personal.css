@@ -18,7 +18,7 @@
 .portrait{
   height: 100px;
   width:100px;
-  background: url(/static/media/portrait.e9e453b8.jpg) -49px -15px;
+  background: url(../images/portrait.jpg) -49px -15px;
   border-radius: 100%;
   margin:0 auto;
 }
