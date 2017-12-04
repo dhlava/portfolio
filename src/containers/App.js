@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import 'normalize.css';
+import './App.css';
+
 import Header from '../components/Header';
 // import Portfolio from '../components/Portfolio';
 import Experience from '../components/Experience';
@@ -7,8 +10,6 @@ import Education from '../components/Education';
 import Personal from '../components/Personal';
 import Footer from '../components/Footer';
 import Resume from '../resume/resume.json';
-import 'normalize.css';
-import './App.css';
 
 class App extends Component {
   render() {
