@@ -19,7 +19,7 @@ class App extends Component {
         <Experience work={Resume.work} />
         <Skills />
         <Education education={Resume.education} />
-        {/* <Portfolio work={Resume.work} /> */}
+        {/* <Portfolio work={Resume.projects} /> */}
         <Footer />
       </div>
     );
