@@ -5,8 +5,10 @@ class EducationItem extends Component {
         return (
             <div className="resume_item education_item">
                 <h3>{this.props.item.institution}</h3>
-                {this.props.item.studyType} in {this.props.item.area} | {this.props.item.startDate} - {this.props.item.endDate}
-                {this.props.item.gpa}
+                <div className="item_details">
+                    {this.props.item.studyType} in {this.props.item.area} &bull; {this.props.item.startDate} - {this.props.item.endDate}
+                    {this.props.item.gpa}
+                </div>
             </div>
         );
     }

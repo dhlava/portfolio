@@ -1,13 +1,15 @@
 .personal_container {
-  background-color:#2b2b2b;
-  padding: 20px 10px;
+  /* background-color:#2b2b2b; */
+  background-color:#2f353a;
+  padding: 72px 10px 20px 10px;
   font-size: 1.4rem;
   font-weight:300;
   border-top: 1px solid #434343;  
 }
   
 .personal_content {
-  color: #999;
+  /* color: #999; */
+  color: #cbd2d6;
 }
 
 .personal_container h3 {
@@ -20,7 +22,7 @@
   width:100px;
   background: url(../images/portrait.jpg) -49px -15px;
   border-radius: 100%;
-  margin:0 auto;
+  margin:30px auto;
 }
 
 .about_me{

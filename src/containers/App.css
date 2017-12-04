@@ -21,7 +21,7 @@ a:hover {
 .page_section {
   overflow: hidden;
   clear: both;
-  padding:30px 20px;
+  padding:60px 20px;
   border-bottom:1px solid #ccc;
 }
 
@@ -30,14 +30,38 @@ a:hover {
   max-width:1024px;
 }
 
+.section_content{
+  margin-top:80px;
+}
+
 .section_title{
-  margin:0;
+  margin: 0 0 30px 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-align: center;
+  /* color: #6E7881; */
+  color:#5a6875;
+}
+
+.section_title span{
+  /* border-bottom:3px solid #269de2; */
+  border-bottom:2px solid #e29726;
+  padding-bottom:4px;
 }
 
 .resume_item{
-  border-bottom: 1px solid #ccc;
-  margin: 0 0 20px 0;
-  padding: 0 0 20px 0;
+  border-top: 1px solid #ccc;
+  margin: 40px 0 0 0;
+  padding: 40px 0 0 0;
+  font-size:1.5rem;
+  font-weight:300;
+}
+
+.resume_item:first-child{
+  margin-top:0;
+  padding-top:0;
+  border-top:0;
 }
 
 .resume_item:last-child{
@@ -45,9 +69,43 @@ a:hover {
 }
 
 .resume_item h3{
-  margin:0 0 20px 0;
-  font-size:2rem;
+  margin: 0 0 10px 0;
+  font-size: 2.5rem;
+  color: #555;
+  font-weight: 600;
+  letter-spacing: .05rem;
 }
+
+.resume_item .item_details{
+  font-weight: 300;
+  font-size:1.4rem;
+  color:#afb9c1;
+}
+
+.resume_item .item_details .item_details_title{
+  display:block;
+  font-size:1.8rem;
+  color: #555;  
+  margin-bottom:4px;
+}
+
+.highlight_list{
+  color: #6e7881;
+  font-weight: 300;
+  line-height: 24px;
+  padding:0 0 0 20px;
+  margin:20px 0 0 0;
+}
+
+.highlight_list .highlight{
+  margin-bottom:10px;
+}
+
+.highlight_list .highlight:last-child{
+  margin-bottom:0;
+}
+
+
 
 @media only screen and (min-width: 720px) {
   .section_content,
