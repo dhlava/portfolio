@@ -1,0 +1,19 @@
+.button,
+.button:visited {
+  background-color: #1F80B8;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: #269de2;
+  color: #fff;
+}
+
+.button.disabled,
+.button.disable:hover {
+  background: #bbb;
+}

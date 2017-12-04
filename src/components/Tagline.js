@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './tagline.css';
 
 class Tagline extends Component {
     render(){

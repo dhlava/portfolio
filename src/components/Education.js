@@ -5,7 +5,7 @@ class Education extends Component {
     render() {
         return (
             <section className="page_section education_container">
-                <div className="section_content education_content">
+                <div className="content education_content">
                     <div className="section_title"><h2>Education</h2></div>
                     <div className="section_content">
                         {this.props.education.map((item, index) =>

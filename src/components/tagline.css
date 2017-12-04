@@ -1,0 +1,36 @@
+.tag_line {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.tag_line h3 {
+  color: #666;
+  font-size: 2.6rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  margin: 0;
+}
+
+.tag_line h3 strong {
+  color: #aaa;
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 720px) {
+  .tag_line {
+    padding: 10px;
+  }
+  .tag_line h3,
+  .tag_line h3 strong {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 721px) and (max-width: 1023px) {
+  .tag_line h3,
+  .tag_line h3 strong {
+    font-size: 2.3rem;
+  }
+}

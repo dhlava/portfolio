@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import SocialMedia from './SocialMedia';
 import portrait from '../images/portrait.jpg';
+import './personal.css';
+
 
 class Personal extends Component {
     render(){
         return(
             <section className="page_section personal_container">
-                <div class="section_content personal_content">
+                <div className="content personal_content">
                     <div className="about_me">
                         <h3>About Me</h3>
                         <img src={portrait} alt="Dustin Hlava" />

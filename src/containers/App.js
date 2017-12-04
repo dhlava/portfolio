@@ -13,7 +13,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="content">
+      <div>
         <Header basics={Resume.basics} />
         <Personal basics={Resume.basics} />
         <Experience work={Resume.work} />
