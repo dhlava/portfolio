@@ -15,7 +15,6 @@ class Personal extends Component {
                         <p>{this.props.basics.summary}</p>
                     </div>
                     <div className="contact_details">
-                        <h3>Contact Details</h3>
                         <SocialMedia profiles={this.props.basics.profiles} />
                     </div>
                 </div>
