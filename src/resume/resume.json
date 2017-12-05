@@ -129,12 +129,14 @@
   ],
   "education": [
     {
-      "institution": "Purdue University - West Lafayette, IN",
+      "institution": "Purdue University",
+      "institutionLocation": "West Lafayette, IN",
       "area": "Computer Graphics Technology",
       "studyType": "Bachelor of Science",
       "startDate": "2003-08-01",
       "endDate": "2008-05-01",
-      "gpa": "Graduation GPA – 3.40/4.0, Honors in multiple semesters, First Semester Dean’s List"
+      "gpa": "3.40/4.0 • Honors in multiple semesters • First Semester Dean’s List",
+      "other": "Minor in Computer & Information Technology"
     }
   ],
   "skills": [
