@@ -34,13 +34,6 @@
   text-align: center;
 }
 
-.contact_details ul {
-  padding: 0;
+.personal_container .socialmedia_list{
   margin:40px 0 0 0;
-  list-style-type: none;
-}
-
-.contact_details li {
-  padding: 10px 20px;
-  display: inline-block;
 }

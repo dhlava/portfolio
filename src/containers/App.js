@@ -21,7 +21,7 @@ class App extends Component {
         <Skills />
         <Education education={Resume.education} />
         {/* <Portfolio work={Resume.projects} /> */}
-        <Footer />
+        <Footer basics={Resume.basics} />
       </div>
     );
   }

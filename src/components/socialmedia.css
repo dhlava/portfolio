@@ -1,0 +1,10 @@
+.socialmedia_list {
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+
+.socialmedia_list li {
+    padding: 10px 20px;
+    display: inline-block;
+}
