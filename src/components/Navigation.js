@@ -6,10 +6,12 @@ class Navigation extends Component {
         return (
             <nav className="main_navigation">
                 <ul>
+                    <li><a href="#about">About Me</a></li>
                     <li><a href="#ipl_contact">What I've Done</a></li>
                     <li><a href="#ipl_contact">What I Know</a></li>
                     <li><a href="#ipl_contact">Education</a></li>
-                    <li><a href="Dustin_Hlava_Resume.pdf">PDF</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="Dustin_Hlava_Resume.pdf">Download PDF</a></li>
                 </ul>
             </nav>
         );
