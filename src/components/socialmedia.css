@@ -8,3 +8,13 @@
     padding: 10px 20px;
     display: inline-block;
 }
+
+.socialmedia_list .fa{
+    vertical-align: middle;
+    padding-right:5px;
+}
+
+.socialmedia_list_stacked .fa{
+    display:block;
+    padding-bottom:5px;
+}

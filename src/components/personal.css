@@ -1,4 +1,5 @@
 .personal_container {
+  /* background: linear-gradient(0deg, #2f353a, #56626b); */
   background-color:#2f353a;
   padding: 72px 10px 20px 10px;
   font-size: 1.4rem;
@@ -36,4 +37,10 @@
 
 .personal_container .socialmedia_list{
   margin:40px 0 0 0;
+}
+
+.personal_container .socialmedia_list li {
+  padding: 10px 20px;
+  font-size:1.5rem;
+  min-width:175px;
 }

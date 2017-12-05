@@ -15,7 +15,7 @@ class Personal extends Component {
                         <p>{this.props.basics.summary}</p>
                     </div>
                     <div className="contact_details">
-                        <SocialMedia profiles={this.props.basics.profiles} />
+                        <SocialMedia profiles={this.props.basics.profiles} displayStyle="stacked" showUsername="true" />
                     </div>
                 </div>
             </section>
