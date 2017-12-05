@@ -40,12 +40,11 @@ a:hover {
   font-weight: 600;
   letter-spacing: .1rem;
   text-align: center;
-  /* color: #6E7881; */
+  padding-right:20px;
   color:#5a6875;
 }
 
 .section_title span{
-  /* border-bottom:3px solid #269de2; */
   border-bottom:2px solid #e29726;
   padding-bottom:4px;
 }
@@ -107,13 +106,14 @@ a:hover {
 
 
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 870px) {
   .section_content,
   .section_title {
     float: left;
   }
   .section_title{
     width:20%;
+    text-align:right;
   }
   .section_content{
     width:80%;
