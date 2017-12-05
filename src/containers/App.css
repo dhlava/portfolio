@@ -31,7 +31,7 @@ a:hover {
 }
 
 .section_content{
-  margin-top:80px;
+  /* margin-top:80px; */
 }
 
 .section_title{
@@ -113,7 +113,7 @@ a:hover {
   }
   .section_title{
     width:20%;
-    text-align:right;
+    text-align:left;
   }
   .section_content{
     width:80%;

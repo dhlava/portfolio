@@ -4,7 +4,7 @@ import ExperienceItem from './ExperienceItem';
 class Experience extends Component {
     render() {
         return (
-            <section className="page_section experience_section">
+            <section id="experience" className="page_section experience_section">
                 <div className="content experience_content">
                     <h2 className="section_title"><span>What I've Done</span></h2>
                     <div className="section_content">

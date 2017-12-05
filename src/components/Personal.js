@@ -7,7 +7,7 @@ import './personal.css';
 class Personal extends Component {
     render(){
         return(
-            <section className="page_section personal_container">
+            <section id="about" className="page_section personal_container">
                 <div className="content personal_content">
                     <Logo name={this.props.basics.name} label={this.props.basics.label} />
                     <div className="about_me">
