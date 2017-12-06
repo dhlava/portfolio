@@ -21,16 +21,18 @@
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1;
-  transition:all 0.1s ease-in;
+  transition:background-color 0.1s ease-in;
 }
 
-.main_navigation li a:hover {
+.main_navigation li a:hover, 
+.main_navigation li a:active{
   background-color: #269de2;
 }
 
 .main_navigation li a:focus{
   outline:1px solid #fff;
   outline-offset: -1px;
+  background-color: #269de2;
 }
 
 .nav_toggle{
