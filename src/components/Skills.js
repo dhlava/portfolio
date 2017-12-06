@@ -4,8 +4,8 @@ import './skills.css';
 export const SkillList = (props) => {
     return (
         <ul className="skill_list">
-            {props.skillset.keywords.map((keyword) =>
-                <li className="skill">{keyword}</li>
+            {props.skillset.keywords.map((keyword, index) =>
+                <li key={index} className="skill">{keyword}</li>
             )}
         </ul>
     );
@@ -19,9 +19,9 @@ class Skills extends Component {
                     <h2 className="section_title"><span>What I Know</span></h2>
                     <div className="section_content">
                         {this.props.skillGroup.map((skillGroup, index) =>
-                            <div className="resume_item skills_item">
+                            <div key={index} className="resume_item skills_item">
                                 <h3>{skillGroup.name}</h3>
-                                <SkillList key={index} skillset={skillGroup} />
+                                <SkillList skillset={skillGroup} />
                             </div>
                         )}
                     </div>
