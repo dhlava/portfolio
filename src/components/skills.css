@@ -1,0 +1,15 @@
+.skill_list{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    margin-top:20px;
+}
+
+.skill_list .skill{
+    display:inline-block;
+    padding:6px 10px;
+    margin: 0 10px 10px 0;
+    background-color:#ccdae6;
+    color:#343535;
+    font-size:1.4rem;
+}

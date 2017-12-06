@@ -18,7 +18,7 @@ class App extends Component {
         <Header basics={Resume.basics} />
         <Personal basics={Resume.basics} />
         <Experience work={Resume.work} />
-        <Skills />
+        <Skills skillGroup={Resume.skills} />
         <Education education={Resume.education} />
         {/* <Portfolio work={Resume.projects} /> */}
         <Footer basics={Resume.basics} />
