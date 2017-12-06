@@ -2,6 +2,7 @@
   "name": "dustinhlavaresume",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://www.dustinhlava.com/portfolio",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "moment": "^2.19.3",
