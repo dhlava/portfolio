@@ -47,6 +47,7 @@
       "startDate": "2013-01-01",
       "endDate": "2017-10-01",
       "summary": "",
+      "refCode": "united",
       "highlights": [
         "Architected, developed, and launched the next-generation United.com",
         "Established front-end architecture and coding standards across United’s ecommerce applications",
@@ -67,6 +68,7 @@
       "startDate": "2012-03-01",
       "endDate": "2013-01-01",
       "summary": "",
+      "refCode": "hartigen",
       "highlights": [
         "Functioned as a lead front-end developer for a startup North American power market web application",
         "Designed and developed client-side application code using multiple JavaScript frameworks and tools such as ExtJS, jQuery, and Backbone.js",
@@ -84,6 +86,7 @@
       "startDate": "2009-03-01",
       "endDate": "2012-01-01",
       "summary": "",
+      "refCode": "arrow",
       "highlights": [
         "Collaborated with an international team of developers to successfully design, develop, and launch a suite of global ecommerce web applications and tools",
         "Designed and developed application UI based on UX standards, industry standards, and analysis of customer feedback",
@@ -101,6 +104,7 @@
       "startDate": "2007-02-01",
       "endDate": "2009-06-01",
       "summary": "",
+      "refCode": "purduetap",
       "highlights": [
         "Collaborated with an international team of developers to successfully design, develop, and launch a suite of global ecommerce web applications and tools",
         "Designed and developed application UI based on UX standards, industry standards, and analysis of customer feedback",
@@ -112,24 +116,316 @@
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
-      "highlights": [ 
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
-      ],
-      "keywords": [
-        "GoogleMaps", "Chrome Extension", "Javascript"
-      ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24", 
-      "url": "missdirection.example.com",
-      "roles": [ 
-        "Team lead", "Designer"
-      ],
-      "entity": "Smoogle",
-      "type": "application"
+      "name": "United.com",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://www.united.com",
+      "roles": ["Developer"],
+      "refCode": "united",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/united_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Arrow Electronics",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://www.arrow.com",
+      "roles": ["Developer"],
+      "refCode": "arrow",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/arrow_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Purdue Manurfacturing Extension Partnership",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/purduemep_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Indianapolis Coalition for Patient Safety",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/icps_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Indiana Pharmacy Compare",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/pqa_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Purdue Center for Regional Development",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/pcrd_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Hoosier Heartland Small Business Development Center",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/hhsbdc_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Quality Environmental Professionals Inc.",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://www.qepi.com",
+      "roles": ["Developer"],
+      "refCode": "qepi",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/qepi_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Egg of the Apocalypse: The Big Eye Bill Chronicles",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Animator"],
+      "refCode": "purdue",
+      "type": "3D Animation",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/bigeyebill_solo_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "The Travels of Bob the Bacterium",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Animator"],
+      "refCode": "purdue",
+      "type": "Animation",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/bob_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "X-wing Rendering",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Creator"],
+      "refCode": "purdue",
+      "type": "3D Rendering",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/xwing_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Nintendo Illustration",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Illustrator"],
+      "refCode": "purdue",
+      "type": "Vector Illustration",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/nintendo_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
     }
   ],
   "education": [
