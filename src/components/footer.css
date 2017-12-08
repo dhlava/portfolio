@@ -1,0 +1,10 @@
+.footer {
+    padding: 20px 0;
+    background-color: #1f2327;
+    text-align: center; 
+}
+
+.footer .socialmedia_list .fa{
+    display: inline-block;
+    padding-bottom:5px; 
+}

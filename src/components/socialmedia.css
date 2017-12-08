@@ -1,0 +1,20 @@
+.socialmedia_list {
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+}
+
+.socialmedia_list li {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.socialmedia_list .fa{
+    vertical-align: middle;
+    padding-right:5px;
+}
+
+.socialmedia_list_stacked .fa{
+    display:block;
+    padding-bottom:5px;
+}

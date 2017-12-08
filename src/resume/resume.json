@@ -1,0 +1,530 @@
+{
+  "basics": {
+    "name": "Dustin Hlava",
+    "label": "Front-End Web Developer",
+    "image": "",
+    "email": "dhlava@gmail.com",
+    "phone": "(317) 850-4291",
+    "url": "http://www.dustinhlava.com",
+    "summary": "My name is Dustin Hlava and I am a front-end web developer in Austin, TX. I have a passion for writing clean, fast, and efficient HTML, CSS, and JavaScript using modern web programming techniques and tools. I have designed, developed, and deployed numerous large web sites and applications. While my passions lie in front-end development, I have developed a broad web technology skill set which I am always eager to grow.",
+    "location": {
+      "address": "6304 Empresa Dr",
+      "postalCode": "78738",
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "TX"
+    },
+    "profiles": [
+      {
+        "network":"Email",
+        "username": "dhlava@gmail.com",
+        "url": "dhlava@gmail.com"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Dustin Hlava",
+        "url": "http://www.linkedin.com/in/dustinhlava"
+      },
+      {
+        "network": "Twitter",
+        "username": "joeegg00",
+        "url": "https://twitter.com/joeegg00"
+      },
+      {
+        "network": "Facebook",
+        "username": "Dustin Hlava",
+        "url": "https://www.facebook.com/DustinHlava"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "United Airlines",
+      "position": "Senior Web UI Developer/Manger of Web App. UI Development",
+      "description":"",
+      "location": "Houston, TX",
+      "url": "https://www.united.com",
+      "startDate": "2013-01-01",
+      "endDate": "2017-10-01",
+      "summary": "",
+      "refCode": "united",
+      "highlights": [
+        "Architected, developed, and launched the next-generation United.com",
+        "Established front-end architecture and coding standards across United’s ecommerce applications",
+        "Engineered and developed (full-stack) numerous large, high-impact products and feature enhancements to United’s ecommerce applications",
+        "Worked side-by-side with team members in various company roles (leadership, business development, design, marketing, testing) to design and refine the application user experience",
+        "Responsible for the remediation of United.com to meet the Web Content Accessibility Guidelines (WCAG) 2.0 AA guidelines and was a team recipient of the 2017 Access Award by the American Foundation for the Blind",
+        "Successfully fostered the transformation of United eCommerce software development from traditional waterfall to agile using extreme programming methodologies",
+        "Implemented and maintained automated continuous delivery servers (GoCD and TeamCity) to enable continuous integration and continuous delivery of new United.com products and features",
+        "Practiced test-driven development (TDD) and integrated multiple levels of the testing pyramid (unit tests, integration, functional/UI) into the United.com continuous delivery pipelines"
+      ]
+    },
+    {
+      "name": "Hartigen Solutions, LLC",
+      "position": "Web Developer",
+      "description":"",
+      "location": "Houston, TX",
+      "url": "https://www.hartigen.com",
+      "startDate": "2012-03-01",
+      "endDate": "2013-01-01",
+      "summary": "",
+      "refCode": "hartigen",
+      "highlights": [
+        "Functioned as a lead front-end developer for a startup North American power market web application",
+        "Designed and developed client-side application code using multiple JavaScript frameworks and tools such as ExtJS, jQuery, and Backbone.js",
+        "Implemented real-time web application behaviors using various HTML5 APIs such as WebSockets",
+        "Developed using the latest and greatest CSS and JavaScript features while falling back gracefully in less capable browsers",
+        "Worked directly and effectively with team members in all other company roles (leadership, sales, design, testing) to design and refine the application user experience"
+      ]
+    },
+    {
+      "name": "Arrow Electronics Inc.",
+      "position": "Front-End Web Developer ",
+      "description":"",
+      "location": "Englewood, CO",
+      "url": "https://components.arrow.com",
+      "startDate": "2009-03-01",
+      "endDate": "2012-01-01",
+      "summary": "",
+      "refCode": "arrow",
+      "highlights": [
+        "Collaborated with an international team of developers to successfully design, develop, and launch a suite of global ecommerce web applications and tools",
+        "Designed and developed application UI based on UX standards, industry standards, and analysis of customer feedback",
+        "Integrated HTML/CSS templates with restful web services",
+        "Lead multiple speed optimization initiatives increasing page load time by as much as six times faster",
+        "Implemented ecommerce functionality across multiple web environments and with multiple web teams around the globe"
+      ]
+    },
+    {
+      "name": "Purdue University Technical Assistance Program",
+      "position": "Web Developer",
+      "description":"",
+      "location": "West Lafayette, IN",
+      "url": "https://tap.purdue.edu",
+      "startDate": "2007-02-01",
+      "endDate": "2009-06-01",
+      "summary": "",
+      "refCode": "purduetap",
+      "highlights": [
+        "Collaborated with an international team of developers to successfully design, develop, and launch a suite of global ecommerce web applications and tools",
+        "Designed and developed application UI based on UX standards, industry standards, and analysis of customer feedback",
+        "Integrated HTML/CSS templates with restful web services",
+        "Lead multiple speed optimization initiatives increasing page load time by as much as six times faster",
+        "Implemented ecommerce functionality across multiple web environments and with multiple web teams around the globe"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "United.com",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://www.united.com",
+      "roles": ["Developer"],
+      "refCode": "united",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/united_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Arrow Electronics",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://www.arrow.com",
+      "roles": ["Developer"],
+      "refCode": "arrow",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/arrow_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Purdue Manurfacturing Extension Partnership",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/purduemep_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Indianapolis Coalition for Patient Safety",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/icps_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Indiana Pharmacy Compare",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Application",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/pqa_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Purdue Center for Regional Development",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/pcrd_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Hoosier Heartland Small Business Development Center",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://tap.purdue.edu",
+      "roles": ["Developer"],
+      "refCode": "purduetap",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/hhsbdc_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Quality Environmental Professionals Inc.",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "https://www.qepi.com",
+      "roles": ["Developer"],
+      "refCode": "qepi",
+      "type": "Web Site",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/qepi_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Egg of the Apocalypse: The Big Eye Bill Chronicles",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Animator"],
+      "refCode": "purdue",
+      "type": "3D Animation",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/bigeyebill_solo_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "The Travels of Bob the Bacterium",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Animator"],
+      "refCode": "purdue",
+      "type": "Animation",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/bob_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "X-wing Rendering",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Creator"],
+      "refCode": "purdue",
+      "type": "3D Rendering",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/xwing_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Nintendo Illustration",
+      "description": "",
+      "highlights": [],
+      "keywords": [],
+      "startDate": "",
+      "endDate": "", 
+      "url": "",
+      "roles": ["Illustrator"],
+      "refCode": "purdue",
+      "type": "Vector Illustration",
+      "images":[
+        {
+          "type":"thumbnail",
+          "url": "/images/portfolio/nintendo_thumbnail.png"
+        },
+        {
+          "type":"still",
+          "url": ""
+        },
+        {
+          "type":"still",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Purdue University",
+      "institutionLocation": "West Lafayette, IN",
+      "area": "Computer Graphics Technology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2003-08-01",
+      "endDate": "2008-05-01",
+      "gpa": "3.40/4.0 • Honors in multiple semesters • First Semester Dean’s List",
+      "other": "Minor in Computer & Information Technology"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        "HTML5", 
+        "CSS3", 
+        "SASS", 
+        "JavaScript (ES6)", 
+        "jQuery", 
+        "Node.js", 
+        "React",
+        "Vue.js",
+        "Angular.js",
+        "Backbone.js",
+        "ExtJS", 
+        "JSON", 
+        "WebAPIs", 
+        "Handlebars",
+        "C#", 
+        "ASP.NET MVC",
+        "SQL",
+        "Selenium Web Driver",
+        "Pyton"        
+      ]
+    },
+    {
+      "name": "Development Practices and Methodologies",
+      "level": "",
+      "keywords": [
+        "Single page applications",
+        "MV*",
+        "object-oriented programming",
+        "XHR",
+        "accessibility (Section 508 / WCAG)", 
+        "data API (Restful) integration",
+        "cross-device/browser development and testing",
+        "performance optimization", 
+        "web semantics",
+        "continuous integration",
+        "continuous delivery",
+        "unit testing",
+        "functional testing",
+        "agile development",
+        "extreme programming (XP)",
+        "search engine optimization"
+      ]
+    },
+    {
+      "name": "Tooling and Workflow",
+      "level": "",
+      "keywords": [
+        "Task runners (Gulp, Grunt, Cake)",
+        "Webpack",
+        "Browserify",
+        "Version control (Git, TFS)",
+        "Package management (NPM, Bower, NuGet)",
+        "Postman",
+        "Fiddler",
+        "browser developer tools",
+        "CI/CD Tools (GoCD, TeamCity)"
+      ]
+    },
+    {
+      "name": "IDEs and Software",
+      "level": "",
+      "keywords": [
+        "Visual Studio",
+        "Visual Studio Code",
+        "Atom",
+        "Adobe Creative Suite (Illustrator, Photoshop)",
+        "SQL Server Studio"
+      ]
+    }    
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+.personal_container {
+  /* background: linear-gradient(0deg, #2f353a, #56626b); */
+  background-color:#2f353a;
+  padding: 72px 10px 20px 10px;
+  font-size: 1.4rem;
+  font-weight:300;
+  border-top: 1px solid #434343;  
+}
+  
+.personal_content {
+  color: #cbd2d6;
+}
+
+.personal_container h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.portrait{
+  height: 100px;
+  width:100px;
+  background: url(../images/portrait.jpg) -49px -15px;
+  border-radius: 100%;
+  margin:30px auto;
+}
+
+.about_me{
+  font-size:1.4rem;
+  text-align: center;
+  max-width:800px;
+  margin: 0 auto;
+}
+
+.contact_details{
+  text-align: center;
+}
+
+.personal_container .socialmedia_list{
+  margin:40px 0 0 0;
+}
+
+.personal_container .socialmedia_list li {
+  padding: 10px 20px;
+  font-size:1.5rem;
+  min-width:175px;
+}

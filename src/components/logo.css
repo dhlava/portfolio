@@ -1,0 +1,35 @@
+.logo{
+  text-align: center;
+}
+
+.logo h1 {
+  font: 8rem 'bebas-neue', sans-serif;
+  color: #ddd;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  transition: font-size 0.5s;
+}
+
+.logo h1 span {
+  color: #1F80B8;
+}
+
+.logo h2 {
+  color: #999;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.7);
+  margin: 0;
+  font-weight: 300;
+  transition: all 0.5s;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo h1{
+    font-size:12rem;
+  }
+  
+  .logo h2 {
+    font-size: 3rem;
+  }
+}

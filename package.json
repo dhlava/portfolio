@@ -1,32 +1,21 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "site.js",
-  "scripts": {
-    "prestart": "npm prune && npm install",
-    "build": "gulp",
-    "start": "npm run build && node server.js && gulp watch",
-    "server": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dhlava/portfolio.git"
-  },
-  "author": "Dustin Hlava",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dhlava/portfolio/issues"
-  },
-  "homepage": "https://github.com/dhlava/portfolio#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
-  },
+  "name": "dustinhlavaresume",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "http://www.dustinhlava.com/portfolio",
   "dependencies": {
-    "compression": "^1.6.2",
-    "express": "^4.14.0",
-    "jquery": "^3.1.1",
-    "normalize.css": "^4.2.0"
+    "font-awesome": "^4.7.0",
+    "moment": "^2.19.3",
+    "normalize.css": "^7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
