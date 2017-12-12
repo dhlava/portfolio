@@ -125,11 +125,11 @@
       "url": "https://www.united.com",
       "roles": ["Developer"],
       "refCode": "united",
-      "type": "Web Application",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/united_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/united_thumbnail.png"
         },
         {
           "type":"still",
@@ -143,23 +143,38 @@
     },
     {
       "name": "Arrow Electronics",
-      "description": "",
+      "description": "While an employee of the User Interface team at Arrow Electronics, a Fortune 200 distribution company, I provided critical front-end web development for their North American and global eCommerce platforms. Over my two years at Arrow, I was part of a team that successfully launched five large, complex web applications, relaunched all previously existing eCommerce applications, and developed Arrow's core UI/UX guidelines based on web standards, performance optimization, and usability.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "JavaScript",
+        "AJAX",
+        "RESTful Services",
+        "JSP"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://www.arrow.com",
-      "roles": ["Developer"],
+      "roles": [
+        "UI/UX Designer and Developer",
+        "Mockups, wireframing, prototyping",
+        "HTML5, CSS3, jQuery",
+        "AJAX/RESTful services integration",
+        "Web Performance Optimization",
+        "Global Web Platform Development"
+      ],
       "refCode": "arrow",
-      "type": "Web Application",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/arrow_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/arrow_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/arrow_1.jpg"
         },
         {
           "type":"still",
@@ -169,23 +184,35 @@
     },
     {
       "name": "Purdue Manurfacturing Extension Partnership",
-      "description": "",
+      "description": "After a period of substantial growth, the Purdue MEP had outgrown their previous web presence as a section on Technical Assistance Programs web site and needed an independent site to share their services, economic impact, client success stories, and upcoming events. Important requirements were improved page navigation and real estate, usability, and search engine optimization.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "XHTML",
+        "CSS",
+        "jQuery",
+        "JavaScript",
+        "ASP.NET"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://tap.purdue.edu",
-      "roles": ["Developer"],
+      "roles": [
+        "Primary UI designer and developer",
+        "Mockups, wireframing, and prototyping",
+        "XHTML, CSS and JavaScript development",
+        "Database and back-end development",
+        "Search engine optimization"
+      ],
       "refCode": "purduetap",
-      "type": "Web Application",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/purduemep_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/purduemep_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/mep.jpg"
         },
         {
           "type":"still",
@@ -195,23 +222,37 @@
     },
     {
       "name": "Indianapolis Coalition for Patient Safety",
-      "description": "",
+      "description": "The Indianapolis Coalition for Patient Safety is a non-profit partnership of health care leaders committed to advancing patient safety. As a replacement for their previous site, IndyPatientSafety.org features and improved layout and content design as well as new functionality. Logged in members gain access to tools such as a document sharing library, member administration pages, and a member address book.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "XHTML",
+        "CSS",
+        "jQuery",
+        "JavaScript",
+        "ASP.NET",
+        "SQL"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://tap.purdue.edu",
-      "roles": ["Developer"],
+      "roles": [
+        "Primary UI designer and developer",
+        "Mockups, wireframing, and prototyping",
+        "XHTML, CSS and JavaScript development",
+        "Database and back-end development",
+        "Search engine optimization",
+        "Maintenance and user training"
+      ],
       "refCode": "purduetap",
-      "type": "Web Site",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/icps_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/icps_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/icps.jpg"
         },
         {
           "type":"still",
@@ -221,23 +262,37 @@
     },
     {
       "name": "Indiana Pharmacy Compare",
-      "description": "",
+      "description": "The Indiana Pharmacy Compare web site, a collaboration between Purdue University and the Pharmacy Quality Alliance, is one of five nationwide projects developed to deliver secured performance reports for participating pharmacies. These pharmacies could access their reports to see scores for a list of performance measures as well as how those scores compared to other pharmacies in the same area.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "XHTML",
+        "CSS",
+        "jQuery",
+        "JavaScript",
+        "ASP.NET",
+        "SQL"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://tap.purdue.edu",
-      "roles": ["Developer"],
+      "roles": [
+        "Primary UI designer and developer",
+        "Mockups, wireframing, and prototyping",
+        "XHTML, CSS and JavaScript development",
+        "Database and back-end development",
+        "Search engine optimization",
+        "Maintenance and user training"
+      ],
       "refCode": "purduetap",
-      "type": "Web Application",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/pqa_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/pqa_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/pqa.jpg"
         },
         {
           "type":"still",
@@ -247,23 +302,38 @@
     },
     {
       "name": "Purdue Center for Regional Development",
-      "description": "",
+      "description": "The Purdue Center for Regional Development needed an update to their previous web site. The main requirements for this site was a new professional design, improved site structure and navigation optimization so users could easy find the content they were looking for.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "XHTML",
+        "CSS",
+        "jQuery",
+        "JavaScript",
+        "Flash",
+        "ASP.NET",
+        "SQL"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://tap.purdue.edu",
-      "roles": ["Developer"],
+      "roles": [
+        "Primary UI designer and developer",
+        "Mockups, wireframing, and prototyping",
+        "XHTML, CSS and JavaScript development",
+        "Flash development",
+        "Search engine optimization",
+        "Maintenance and user training"
+      ],
       "refCode": "purduetap",
-      "type": "Web Site",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/pcrd_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/pcrd_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/pcrd.jpg"
         },
         {
           "type":"still",
@@ -273,23 +343,35 @@
     },
     {
       "name": "Hoosier Heartland Small Business Development Center",
-      "description": "",
+      "description": "For their first time on the web, the Hoosier Heartland Small Business Development Center needed a site to provide potential clients with a list of services, success stories, upcoming events, and an easy way to contact the HHSBDC.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "XHTML",
+        "CSS",
+        "jQuery",
+        "JavaScript",
+        "ASP.NET"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://tap.purdue.edu",
-      "roles": ["Developer"],
+      "roles": [
+        "Primary UI designer and developer",
+        "Mockups, wireframing, and prototyping",
+        "XHTML, CSS and JavaScript development",
+        "Search engine optimization",
+        "Maintenance and user training"
+      ],
       "refCode": "purduetap",
-      "type": "Web Site",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/hhsbdc_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/hhsbdc_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/hhsbdc.jpg"
         },
         {
           "type":"still",
@@ -299,23 +381,37 @@
     },
     {
       "name": "Quality Environmental Professionals Inc.",
-      "description": "",
+      "description": "As part of their overall marketing redesign initiative, QEPI wanted a fresh look for their web site. The updated site needed a clean, professional look as well as improvements to site structure and organization.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "XHTML",
+        "CSS",
+        "jQuery",
+        "JavaScript",
+        "Flash",
+        "ASP.NET"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "https://www.qepi.com",
-      "roles": ["Developer"],
+      "roles": [
+        "Primary UI designer and developer",
+        "Mockups, wireframing, and prototyping",
+        "XHTML, CSS and JavaScript development",
+        "Cross-browser optimization",
+        "Flash development",
+        "Search engine optimization"
+      ],
       "refCode": "qepi",
-      "type": "Web Site",
+      "type": "Web Application Design & Development",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/qepi_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/qepi_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/qepi.jpg"
         },
         {
           "type":"still",
@@ -325,23 +421,29 @@
     },
     {
       "name": "Egg of the Apocalypse: The Big Eye Bill Chronicles",
-      "description": "",
+      "description": "Bill, a crime fighting egg with a giant eye, must stop the evil villain banana, Chiquito, from robbing the city's largest bank. This short 3D animation, a collaboration between myself, John Wojtowicz, and Carlos Urquieta, was created using numerous graphic software packages such as Autodesk Maya, Adobe Photoshop, as well as other software in the Adobe Creative Suite. Egg of the Apocalypse received two awards: \"1st Place Animation\" in the 2006 Purdue Digital Cinema Contest and the \"Most Entertaining\" award in the 2006 Spring Show of the Purdue SIGGRAPH chapter.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "3D Rendering",
+        "3D Animation",
+        "Editing",
+        "Compositing",
+        "Audio Editing"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "",
       "roles": ["Animator"],
       "refCode": "purdue",
-      "type": "3D Animation",
+      "type": "3D Animation and Video Compositing",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/bigeyebill_solo_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/bigeyebill_solo_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/bigeyebill.jpg"
         },
         {
           "type":"still",
@@ -351,23 +453,30 @@
     },
     {
       "name": "The Travels of Bob the Bacterium",
-      "description": "",
+      "description": "The Travels of Bob the Bacterium is one part in a series of educational stories used to teach Indiana's elementary school students about agricultural concepts. In collaboration with the Purdue Agronomy Department and the other members of my senior project group at Purdue University, the story of Bob the Bacterium was transformed from its original printed format to an interactive 3D animation.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "Flash Animation",
+        "ActionScript",
+        "3D Animation",
+        "Editing",
+        "Compositing",
+        "Audio Editing"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "",
       "roles": ["Animator"],
       "refCode": "purdue",
-      "type": "Animation",
+      "type": "3D Animation, Flash Animation, Video Compositing",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/bob_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/bob_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/bob.jpg"
         },
         {
           "type":"still",
@@ -377,23 +486,28 @@
     },
     {
       "name": "X-wing Rendering",
-      "description": "",
+      "description": "The goal was to take any movie and recreate a single frame from that movie using 3D modeling and rendering techniques. I think you can guess which movie this is from.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "3D Rendering",
+        "Compositing",
+        "Autodesk Maya",
+        "Photoshop"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "",
       "roles": ["Creator"],
       "refCode": "purdue",
-      "type": "3D Rendering",
+      "type": "3D Modeling & Rendering",
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/xwing_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/xwing_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/xwing.jpg"
         },
         {
           "type":"still",
@@ -403,9 +517,12 @@
     },
     {
       "name": "Nintendo Illustration",
-      "description": "",
+      "description": "A photo-realistic vector illustration of the classic Nintendo Entertainment System.",
       "highlights": [],
-      "keywords": [],
+      "keywords": [
+        "Vector illustration",
+        "Adobe Illustrator"
+      ],
       "startDate": "",
       "endDate": "", 
       "url": "",
@@ -415,11 +532,11 @@
       "images":[
         {
           "type":"thumbnail",
-          "url": "/images/portfolio/nintendo_thumbnail.png"
+          "url": "/images/portfolio_thumbnails/nintendo_thumbnail.png"
         },
         {
           "type":"still",
-          "url": ""
+          "url": "/images/portfolio/nintendo.jpg"
         },
         {
           "type":"still",
