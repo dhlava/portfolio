@@ -130,7 +130,11 @@
         {
           "type":"thumbnail",
           "url": "/images/portfolio_thumbnails/united_thumbnail.png"
-        }
+        },
+        {
+          "type":"still",
+          "url": "/images/portfolio/united.jpg"
+        }      
       ]
     },
     {
@@ -166,7 +170,7 @@
         },
         {
           "type":"still",
-          "url": "/images/portfolio/arrow_1.jpg"
+          "url": "/images/portfolio/arrow.jpg"
         }
       ]
     },
