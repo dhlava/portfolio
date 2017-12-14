@@ -1,9 +1,6 @@
 .portfolio_container {
   background-color:#f1f1f1;
 }
-
-
-.portfolio_items {}
   
 .portfolio_item {
   background-color: #FFF;
@@ -39,6 +36,7 @@
 .portfolio_item img {
   width: 100%;
   transition:filter 0.08s linear;
+  display:block;
 }
 
 .portfolio_item .item_overlay {
@@ -57,6 +55,7 @@
   justify-content: center;
   align-items:center;
   flex-direction: column;
+  cursor:pointer;
 }
 
 .portfolio_item .item_overlay .expand_text{
@@ -71,4 +70,41 @@
 
 .portfolio_item:hover img{
   filter:blur(6px);
+}
+
+.portfolio_modal_container{
+  padding:0 !important;
+  max-width:700px !important;
+}
+
+.portfolio_modal_container img{
+  width:100%;
+}
+
+.portfolio_description_content{
+  padding:2rem;
+  font-size:1.3rem;
+  color:#6e7881;
+  font-weight:300;
+}
+
+.portfolio_description_content h3, .portfolio_description_content h4{
+  margin: 0 0 1rem 0;
+  color:#555;  
+}
+
+.portfolio_description_content h3{
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
+}
+
+.portfolio_description_content h4{
+  font-size:1.6rem;
+  font-weight:300;
+}
+  
+.portfolio_modal_container .button{
+  width:100%;
+  font-size:1.2rem;
 }
