@@ -31,7 +31,7 @@ class PortfolioItem extends Component {
                         <p className="expand_text">View details</p>
                     </div>
                 </div>
-                <Modal showCloseIcon={false} classNames={{modal: 'portfolio_modal_container'}} open={this.state.modalOpen} onClose={this.handleModalClose}>
+                <Modal little showCloseIcon={false} classNames={{modal: 'portfolio_modal_container'}} open={this.state.modalOpen} onClose={this.handleModalClose}>
                     <img src={this.props.item.images[1].url} alt="" />
                     <div className="portfolio_description_content">
                         <h3>{this.props.item.name}</h3>
