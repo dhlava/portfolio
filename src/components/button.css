@@ -6,6 +6,9 @@
   text-align: center;
   color: #fff;
   font-weight: 400;
+  border:0;
+  border-radius: 0;
+  cursor:pointer;
 }
 
 .button:hover {
