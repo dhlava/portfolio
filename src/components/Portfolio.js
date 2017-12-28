@@ -7,7 +7,7 @@ class Portfolio extends Component {
         return(
             <section id="portfolio" className="page_section portfolio_container">
                 <div className="content portfolio_content">
-                    <h2 className="section_title"><span>Notable projects</span></h2>
+                    <h2 className="section_title"><span>Portfolio</span></h2>
                     <div className="section_content portfolio_items">
                         {this.props.work.map((item, index) => 
                             <PortfolioItem key={index} item={item} />

@@ -3,7 +3,7 @@ import 'normalize.css';
 import './App.css';
 
 import Header from '../components/Header';
-// import Portfolio from '../components/Portfolio';
+import Portfolio from '../components/Portfolio';
 import Experience from '../components/Experience';
 import Skills from '../components/Skills';
 import Education from '../components/Education';
@@ -20,7 +20,7 @@ class App extends Component {
         <Experience work={Resume.work} />
         <Skills skillGroup={Resume.skills} />
         <Education education={Resume.education} />
-        {/* <Portfolio work={Resume.projects} /> */}
+        <Portfolio work={Resume.projects} />
         <Footer basics={Resume.basics} />
       </div>
     );

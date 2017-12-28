@@ -23,7 +23,7 @@ class Navigation extends Component {
                     <li><a onClick={this.toggleNavigation} href="#experience">What I've Done</a></li>
                     <li><a onClick={this.toggleNavigation} href="#skills">What I Know</a></li>
                     <li><a onClick={this.toggleNavigation} href="#education">Education</a></li>
-                    {/* <li><a onClick={this.toggleNavigation} href="#portfolio">Portfolio</a></li> */}
+                    <li><a onClick={this.toggleNavigation} href="#portfolio">Portfolio</a></li>
                     <li><a onClick={this.toggleNavigation} href="resume/Dustin_Hlava_Resume.pdf">Download PDF</a></li>
                 </ul>
             </nav>
