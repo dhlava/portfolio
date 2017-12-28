@@ -53,4 +53,7 @@
     max-width:350px;
     margin:0 auto;
   }
+  .personal_container .socialmedia_list li{
+    font-size:1.2rem;
+  }
 }
