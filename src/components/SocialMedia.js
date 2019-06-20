@@ -4,16 +4,14 @@ import './socialmedia.css';
 
 class SocialMedia extends Component {
     mapIcon(network){
-        switch (network) {
-            case "email":
-                return (
-                    <i className="fa fa-envelope fa-3x"/>
-                );
-            default:
-                return (
-                    <i className={`fa fa-${network} fa-3x`}/>
-                );
-        }    
+        if (network === "email") {
+            return (
+                <i className="fa fa-envelope fa-3x"/>
+            );
+        }
+        return (
+            <i className={`fa fa-${network} fa-3x`}/>
+        );
     }
     render() {
         const displayClass = this.props.displayStyle ? `socialmedia_list_${this.props.displayStyle}` : '';        
