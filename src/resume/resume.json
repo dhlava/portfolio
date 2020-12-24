@@ -8,8 +8,8 @@
     "url": "http://www.dustinhlava.com",
     "summary": "My name is Dustin Hlava and I am a front-end web developer in Austin, TX. I have a passion for writing clean, fast, and efficient HTML, CSS, and JavaScript using modern web programming techniques and tools. I have designed, developed, and deployed numerous large web sites and applications. While my passions lie in front-end development, I have developed a broad web technology skill set which I am always eager to grow.",
     "location": {
-      "address": "6304 Empresa Dr",
-      "postalCode": "78738",
+      "address": "",
+      "postalCode": "",
       "city": "Austin",
       "countryCode": "US",
       "region": "TX"
@@ -29,15 +29,22 @@
         "network": "Twitter",
         "username": "joeegg00",
         "url": "https://twitter.com/joeegg00"
-      },
-      {
-        "network": "Facebook",
-        "username": "Dustin Hlava",
-        "url": "https://www.facebook.com/DustinHlava"
       }
     ]
   },
   "work": [
+    {
+      "name": "The Zebra", 
+      "position": "Senior Front End Engineer", 
+      "description": "", 
+      "location": "Austin, TX", 
+      "url": "https://www.thezebra.com",
+      "startDate": "2018-03-05",
+      "endDate": "",
+      "summary": "",
+      "refCode": "zebra",
+      "highlights": []
+    },
     {
       "name": "United Airlines",
       "position": "Senior Web UI Developer/Manger of Web App. UI Development",
@@ -521,25 +528,24 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "HTML5", 
-        "CSS3", 
-        "SASS", 
-        "JavaScript (ES6)", 
-        "jQuery", 
-        "Node.js", 
+        "HTML", 
+        "CSS", 
+        "CSS processors (SASS, Postcss)", 
+        "JavaScript",
+        "NodeJS", 
         "React",
         "Vue.js",
-        "Angular.js",
-        "Backbone.js",
-        "ExtJS", 
-        "JSON", 
-        "WebAPIs", 
         "Handlebars",
+        "Python",
+        "Django",
+        "Wagtail CMS",
         "C#", 
         "ASP.NET MVC",
+        "Postgresql",
         "SQL",
+        "Cypress",
         "Selenium Web Driver",
-        "Pyton"        
+        "Wordpress"
       ]
     },
     {
@@ -549,7 +555,6 @@
         "Single page applications",
         "MV*",
         "object-oriented programming",
-        "XHR",
         "accessibility (Section 508 / WCAG)", 
         "data API (Restful) integration",
         "cross-device/browser development and testing",
@@ -561,15 +566,16 @@
         "functional testing",
         "agile development",
         "extreme programming (XP)",
-        "search engine optimization"
+        "search engine optimization",
+        "CMS development"
       ]
     },
     {
       "name": "Tooling and Workflow",
       "level": "",
       "keywords": [
-        "Task runners (Gulp, Grunt, Cake)",
         "Webpack",
+        "Task runners (Gulp, Grunt, Make/Cake)",
         "Browserify",
         "Version control (Git, TFS)",
         "Package management (NPM, Bower, NuGet)",
@@ -583,9 +589,8 @@
       "name": "IDEs and Software",
       "level": "",
       "keywords": [
-        "Visual Studio",
         "Visual Studio Code",
-        "Atom",
+        "Visual Studio",
         "Adobe Creative Suite (Illustrator, Photoshop)",
         "SQL Server Studio"
       ]

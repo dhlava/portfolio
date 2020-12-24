@@ -19,7 +19,7 @@ class ExperienceItem extends Component {
                 <h3><a href={this.props.item.url}>{this.props.item.name}</a></h3>
                 <div className="item_details">
                     <div className="item_details_title">{this.props.item.position}</div>
-                    {this.props.item.location} &bull; {Moment(this.props.item.startDate).format("MMMM YYYY")} - {Moment(this.props.item.endDate).format("MMMM YYYY")}
+                    {this.props.item.location} &bull; {Moment(this.props.item.startDate).format("MMMM YYYY")} - {this.props.item.endDate ? Moment(this.props.item.endDate).format("MMMM YYYY"): "Current"}
                 </div>
                 <HighlightList highlights={this.props.item.highlights} />
             </div>
